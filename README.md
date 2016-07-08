@@ -2,6 +2,7 @@
 
 An elegant AJAX driven theme for [Ghost](http://github.com/tryghost/ghost/) by [Peter Amende](http://zutrinken.com/).
 
+Edits made by [Kyle Burckhard](http://vorpalcode.com). 
 Edits made by [Kyle Gauder](http://fdraconis.com). You can find the original theme [here](https://github.com/zutrinken/bleak).
 
 ***
@@ -81,7 +82,7 @@ To enable [Disqus](https://disqus.com/) comments go to your blogs code injection
 Install [Grunt](http://gruntjs.com/getting-started/):
 
 	npm install -g grunt-cli
-	
+
 Install Grunt modules:
 
 	npm install

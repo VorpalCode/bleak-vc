@@ -1,9 +1,17 @@
 :root {
     --webkit-main-color: #3D9ED9;
     --webkit-secondary-color: #25668F;
-    --font-title: 'Kankin';
+    --font-title: 'HACKED';
     --font-main: 'Merriweather Sans';
-} 
+}
+
+# Hacked font - http://bit.ly/WatchDogsFont
+@font-face {
+    font-family: 'HACKED';
+    font-style: normal;
+    font-weight: 400;
+    src: local("HACKED"), local("HACKED Regular"), local("HACKED-Regular"), url("../fonts/HACKED.woff2?9273991") format("woff2"), url("../fonts/HACKED.woff?9273991") format("woff"), url("../fonts/HACKED.ttf?9273991") format("truetype"), url("../fonts/HACKED.svg?9273991") format("svg");
+}
 
 @font-face {
     font-family: 'Merriweather Sans';
@@ -74,15 +82,6 @@
     src: url("../fonts/icons.eot?9273991#iefix") format("embedded-opentype"), url("../fonts/icons.woff?9273991") format("woff"), url("../fonts/icons.ttf?9273991") format("truetype"), url("../fonts/icons.svg?9273991#icons") format("svg");
     font-weight: normal;
     font-style: normal
-}
-@font-face{ 
-font-family: 'Fabrica';
-src: url('../fonts/Fabrica.otf');
-}
-@font-face{ 
-font-family: 'Kankin';
-src: url('../fonts/Kankin.otf');
-src: url('../fonts/Kankin.ttf');
 }
 
 [class^="icon-"]:before,
@@ -992,7 +991,7 @@ body {
 }
 
 #header .header-name {
-    font-family: var(--font-title), sans-serif;
+    font-family: var(--font-title), "Lucida Console", Monaco, monospace;
     font-weight: 700;
     letter-spacing: 2px;
     display: block;
